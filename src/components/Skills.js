@@ -7,8 +7,8 @@ import nodejs from "../assets/img/nodejs.svg";
 import postgresql from "../assets/img/postgresql.svg"
 import express from "../assets/img/express.svg"
 import sequelize from "../assets/img/sequelize.svg";
-import mongodb from "../assets/img/mongodb.svg"
-import tailwind from "../assets/img/tailwind.svg"
+/* import mongodb from "../assets/img/mongodb.svg"
+import tailwind from "../assets/img/tailwind.svg" */
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -80,7 +80,7 @@ export const Skills = () => {
                                 <img src={sequelize} alt="sequelize" />
                                 <h5>Sequelize</h5>
                             </div>
-                            <div className="item">
+                            {/* <div className="item">
                                 <img src={mongodb} alt="mongodb" />
                                 <h5>MongoDb</h5>
                             </div>
@@ -88,7 +88,7 @@ export const Skills = () => {
                                 <img src={tailwind} alt="tailwind" />
                                 <h5>Tailwind</h5>
                             </div>
-                           
+                            */}
                             
                         </Carousel>
                     </div>
