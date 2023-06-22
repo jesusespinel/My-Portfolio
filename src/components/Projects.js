@@ -3,12 +3,19 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project11.png";
 import projImg2 from "../assets/img/landing.png";
 import projImg3 from "../assets/img/eccomerce.jpg";
+import projImg4 from "../assets/img/cata.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Landing Page, Cata Office SAS",
+      description: "Javascript, React, CSS",
+      imgUrl: projImg4,
+      url:"https://cata-office.vercel.app/"
+    },
     {
       title: "Landing page, made for CEMRED S.A.S",
       description: "Web Desing & Development",
@@ -26,7 +33,8 @@ export const Projects = () => {
       description: "Javascript, React, Redux, Express, MongoDB, Tailwind",
       imgUrl: projImg3,
       url:"https://github.com/Santiago-Miranda/HENRY-LUXURY"
-    }
+    },
+
   ];
 
   return (
